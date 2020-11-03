@@ -2,6 +2,7 @@
   <div>
     <GlobalNavigation />
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
@@ -9,7 +10,8 @@
 export default {
   name: 'default',
   components: {
-    GlobalNavigation: () => import('../components/Global/GlobalNavigation.vue')
+    GlobalNavigation: () => import('../components/Global/GlobalNavigation.vue'),
+    Footer: () => import('../components/Global/Footer.vue')
   }
 }
 </script>

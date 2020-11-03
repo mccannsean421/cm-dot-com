@@ -2,9 +2,17 @@
   --black: #000100;
   --medium-purple: #907AD6;
   --brink-pink: #FF4F79;
+
+  --nav-height-desktop: 80px;
+  --footer-height-desktop: 80px;
+  --home-min-height: calc(100vh - 160px);
 }
 
 body {
   background: var(--black);
   color: #fff;
+}
+
+a {
+  text-decoration: none;
 }

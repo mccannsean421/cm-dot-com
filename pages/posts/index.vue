@@ -8,7 +8,7 @@
         :key="`post-${index}`"
       >
         <nuxt-link :to="post.path">
-          {{ post.slug }}
+          {{ post.title }}
         </nuxt-link>
       </li>
     </ul>

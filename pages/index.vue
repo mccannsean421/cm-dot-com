@@ -1,9 +1,7 @@
 <template>
   <div class="container">
-    <h1>CMC dot com</h1>
-
-    {{ posts }}
-
+    <h1>Cormac McCann</h1>
+    <h2>Frontend Developer</h2>
   </div>
 </template>
 

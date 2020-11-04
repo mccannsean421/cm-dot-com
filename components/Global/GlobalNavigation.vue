@@ -1,12 +1,12 @@
 <template>
   <nav class="global-nav">
-    <div>
+    <div class="global-nav__home-btn">
       <nuxt-link to="/">
         CM
       </nuxt-link>
     </div>
 
-    <div>
+    <div class="global-nav__links">
       <nuxt-link
         v-for="(link, index) in links"
         :key="`nav-link-${index}`"
@@ -50,5 +50,23 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px;
+  height: 80px;
+  padding: 1em;
+  &__links {
+    text-align: right;
+    a {
+      display: inline;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+  }
+  &__home-btn {
+    a {
+      font-weight: 800;
+      font-size: 32px;
+      color: var(--theme-color);
+    }
+  }
 }
 </style>

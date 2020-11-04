@@ -5,12 +5,14 @@
 
   --nav-height-desktop: 80px;
   --footer-height-desktop: 80px;
-  --home-min-height: calc(100vh - 160px);
+  --container-min-height: calc(100vh - 160px);
+  --theme-color: var(--medium-purple);
 }
 
 body {
   background: var(--black);
   color: #fff;
+
 }
 
 a {
@@ -19,4 +21,5 @@ a {
 
 .container {
   padding: 3em;
+  height: var(--container-min-height);
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container posts-container">
     <h1>Posts</h1>
 
     <ul>
@@ -21,7 +21,12 @@ export default {
     return {
       posts: await context.$content('posts').fetch()
     }
-  }
+  },
+  head() {
+    return {
+      title: 'Blog Posts | Cormac McCann'
+    };
+  },
 }
 </script>
 

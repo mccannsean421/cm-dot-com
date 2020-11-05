@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container post-container">
     <nuxt-content :document="page" />
   </div>
 </template>
@@ -17,6 +17,11 @@ export default {
     return {
       page
     }
-  }
+  },
+  head() {
+    return {
+      title: `${this.page.title} | Cormac McCann`
+    };
+  },
 }
 </script>

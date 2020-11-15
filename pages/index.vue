@@ -19,7 +19,10 @@ export default {
     return {
       posts: await context.$content('posts').fetch()
     }
-  }
+  },
+  transition: {
+    name: 'bounce',
+  },
 }
 
 </script>

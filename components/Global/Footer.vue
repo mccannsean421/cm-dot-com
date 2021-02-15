@@ -1,18 +1,20 @@
 <template>
   <footer class="footer">
-    <div>
-      &copy; 2019 Coramc McCann. Built with NuxtJS
-    </div>
-    <div>
-      <a
-        v-for="(link, index) in socialLinks"
-        :key="`social-link-${index}`"
-        :href="link.href"
-        rel="nofollow"
-        target="_blank"
-      >
-        {{ link.text }}
-      </a>
+    <div class="footer-container">
+      <div>
+        &copy; 2021 Cormac McCann. Built with NuxtJS
+      </div>
+      <div class="footer-container__socials">
+        <a
+          v-for="(link, index) in socialLinks"
+          :key="`social-link-${index}`"
+          :href="link.href"
+          rel="nofollow"
+          target="_blank"
+        >
+          {{ link.text }}
+        </a>
+      </div>
     </div>
   </footer>
 </template>
@@ -30,7 +32,7 @@ export default {
         },
         {
           text: 'LinkedIn',
-          href: '#',
+          href: 'https://www.linkedin.com/in/cormac-mccann-70052283',
           color: 'magenta'
         }
       ]
@@ -41,7 +43,15 @@ export default {
 
 <style lang="scss">
 .footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  .footer-container {
+    width: var(--container-width-desktop);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2em 0em;
+    &__socials {
+      text-align: right;
+    }
+  }
 }
 </style>

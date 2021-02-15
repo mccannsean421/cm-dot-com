@@ -10,8 +10,8 @@
             <h2> TLDR </h2>
             <div class="para-container">
                 <p>
-                    My name is Cormac McCann, I make first class web experiences.
-                    I am a <span class="highlight">frontend web developer</span> with over three years of enterprise level experience.
+                    My name is Cormac McCann and I make first class web experiences.
+                    I am a <span class="highlight">frontend web developer</span> with over five years of enterprise level experience.
                 </p>
             </div>
         </div>
@@ -36,25 +36,6 @@
                     Design and SEO processed. To the point where I’ve gained
                     a substanial understanding, and been able to apply
                     both to my development process.
-                </p>
-            </div>
-        </div>
-
-
-        <!-- Weekend Project -->
-        <div class="content-block">
-            <h2> My Weekend Project </h2>
-
-            <div class="para-container">
-                <p>
-                    In early 2018 I started a web development blog titled:
-                    My Weekend Project. The site started as a  filler
-                    slot for my portfolio  but quickly became a place for me
-                    to experiment  and grow my skillset. Since starting the
-                    site I have become more proficitient in writing, SEO,
-                    design and of course development. My Weekend Project
-                    has also led to me starting a Coding Live Stream on Twitch,
-                    and a Youtube channel for housing all the past streams
                 </p>
             </div>
         </div>

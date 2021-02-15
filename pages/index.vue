@@ -2,7 +2,7 @@
   <div class="container home-container">
     <div>
       <h1>Cormac McCann</h1>
-      <h2>Frontend Developer</h2>
+      <h2>Frontend Developer - Ameteur Engineer</h2>
     </div>
   </div>
 </template>

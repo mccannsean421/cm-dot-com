@@ -27,7 +27,7 @@ export default {
       socialLinks: [
         {
           text: 'Github',
-          href: '#',
+          href: 'https://github.com/mccannsean421',
           color: 'magenta'
         },
         {
@@ -44,13 +44,26 @@ export default {
 <style lang="scss">
 .footer {
   .footer-container {
-    width: var(--container-width-desktop);
-    margin: 0 auto;
+     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     padding: 2em 0em;
+    @media screen and (min-width: 767px) {
+      width: var(--container-width-desktop);
+      grid-template-columns: 1fr 1fr;
+    }
     &__socials {
-      text-align: right;
+      @media screen and (min-width: 767px) {
+        text-align: right;
+      }
+      a {
+        color: #fff;
+        &:after {
+          content: '-';
+        }
+        &:last-child::after {
+          content: '';
+        }
+      }
     }
   }
 }

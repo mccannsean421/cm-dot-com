@@ -70,7 +70,6 @@ export default {
 
 <style lang="scss">
 .global-nav {
-
     &__inner {
     max-width: var(--container-width-desktop);
     display: grid;

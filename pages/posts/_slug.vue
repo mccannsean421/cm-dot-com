@@ -1,6 +1,10 @@
 <template>
-  <div class="container post-container">
-    <nuxt-content :document="page" />
+  <div class="white-page">
+    <article class="container post-container">
+     <h1 class="text--thicc text--largest">{{ page.title }}</h1>
+     <time :datetime="page.lastUpdated">{{ page.lastUpdated }}</time>
+      <nuxt-content :document="page" />
+    </article>
   </div>
 </template>
 
@@ -25,3 +29,10 @@ export default {
   },
 }
 </script>
+
+<style lang="scss">
+.white-page {
+  background: #fff;
+  color: #001;
+}
+</style>

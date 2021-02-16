@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/**
+* Font sizes
+*/
+
+.text--normal { font-size: 1em; } // 1em === 16px
+
+.text--small { font-size: .8em; }
+
+.text--smallest { font-size: .5em; }
+
+.text--large { font-size: 2em; }
+
+.text--largest { font-size: 3em; }
+
+
+/**
+* Font weight
+*/
+
+.text--thicc { font-weight: 600; }
+
+.text--thiccc { font-weight: 900; }

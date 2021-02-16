@@ -1,3 +1,5 @@
+@import './typography.scss';
+
 :root {
   --black: #000100;
   --medium-purple: #907AD6;
@@ -19,7 +21,7 @@ $medium-breakpoint: 767px;
 body {
   background: var(--black);
   color: #fff;
-
+  font-size: 16px;
 }
 
 a {
@@ -30,49 +32,4 @@ a {
   margin: 0 auto;
   min-height: var(--container-min-height);
   max-width: var(--container-width-desktop);
-}
-
-.bounce-enter-active {
-    animation: bounce-in .8s;
-}
-
-.bounce-leave-active {
-    animation: bounce-out .5s;
-}
-
-.page-enter-active, .page-leave-active {
-    transition: opacity .5s
-}
-
-.page-enter, .page-leave-active {
-    opacity: 0
-}
-
-@keyframes fwesda-in {
-    0% {
-        transform: skewX(30deg) translateX(-100%);
-    }
-    100% {
-        transfrom: skewX(0deg) translateX(100%)
-    }
-}
-
-@keyframes fwesda-out {
-    0% {
-        transform: skewX(-30deg) translateX(0%);
-    }
-    100% {
-        transfrom: skewX(0deg) translateX(-100%)
-    }
-}
-
-@keyframes bounce-in {
-    0% { transform: scale(0) }
-    50% { transform: scale(1.2) }
-    100% { transform: scale(1) }
-}
-@keyframes bounce-out {
-    0% { transform: scale(1) }
-    50% { transform: scale(1.2) }
-    100% { transform: scale(0) }
 }

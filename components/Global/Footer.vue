@@ -34,7 +34,13 @@ export default {
           text: 'LinkedIn',
           href: 'https://www.linkedin.com/in/cormac-mccann-70052283',
           color: 'magenta'
-        }
+        },
+        {
+          text: 'Twitter',
+          href: 'https://www.twitter.com/cormacmccanndev',
+          color: 'magenta'
+        },
+
       ]
     }
   }

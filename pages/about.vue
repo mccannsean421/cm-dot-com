@@ -62,7 +62,10 @@
 export default {
   head() {
     return {
-      title: 'About | Cormac McCann'
+      title: 'About | Cormac McCann',
+      link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon-red.png' }
+      ]
     };
   },
 }

@@ -17,7 +17,10 @@ export default {
   },
   head() {
     return {
-      title: 'Blog Posts | Cormac McCann'
+      title: 'Blog Posts | Cormac McCann',
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon-purple.png' }
+      ]
     };
   },
 }

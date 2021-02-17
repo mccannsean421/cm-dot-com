@@ -18,7 +18,10 @@
 export default {
   head() {
     return {
-      title: 'Contact | Cormac McCann'
+      title: 'Contact | Cormac McCann',
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon-orange.png' }
+      ]
     };
   },
 }

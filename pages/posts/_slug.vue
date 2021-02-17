@@ -40,6 +40,9 @@ export default {
         { hid: 'twitter:title', name: 'twitter:title', content: this.page.title },
         { hid: 'twitter:description', name: 'twitter:description', content: 'Check out the full post on my website!' },
         { hid: 'twitter:image', name: 'twitter:image', content: `https://www.cormacmccann.com/me.jpg` },
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon-purple.png' }
       ]
     };
   },

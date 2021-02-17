@@ -5,7 +5,7 @@
       :key="`post-${index}`"
       class="blog-list__item"
     >
-    <h3>
+    <h3 class="post-link-title text--large">
       <nuxt-link
         :to="post.path"
         class="post-link"

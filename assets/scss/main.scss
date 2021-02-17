@@ -1,4 +1,4 @@
-@import './typography.scss';
+
 
 :root {
   --black: #000100;
@@ -19,9 +19,8 @@
 $medium-breakpoint: 767px;
 
 body {
-  background: var(--black);
-  color: #fff;
   font-size: 16px;
+  margin: 0;
 }
 
 a {
@@ -33,3 +32,6 @@ a {
   min-height: var(--container-min-height);
   max-width: var(--container-width-desktop);
 }
+
+@import './typography.scss';
+@import './layout.scss';

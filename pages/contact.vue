@@ -1,8 +1,12 @@
 <template>
   <div class="container contact-container">
-    <h1>Contact</h1>
+    <h1 class="page-heading text--largest">Contact</h1>
 
-    <ContactForm />
+    <p><b>If you're a recruiter</b> right now I am not looking for any new employment opportunities. But do feel free to add me on LinkedIn!</p>
+
+    <p>Otherwise if you have any questions about my posts, my work, my site. Or if you want you just want to connect you can reach me at:</p>
+
+    <a class="post-heading text--largest" href="mailto:cormacmccanndev@gmail.com">cormacmccanndev@gmail.com</a>
   </div>
 </template>
 

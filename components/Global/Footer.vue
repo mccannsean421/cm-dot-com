@@ -62,7 +62,7 @@ export default {
         text-align: right;
       }
       a {
-        color: #fff;
+        color: var(--black);
         &:after {
           content: '-';
         }

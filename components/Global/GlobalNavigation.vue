@@ -70,6 +70,7 @@ export default {
 
 <style lang="scss">
 .global-nav {
+  background: var(--black);
     &__inner {
     max-width: var(--container-width-desktop);
     display: grid;
@@ -126,9 +127,15 @@ export default {
           display: none;
         }
       }
+
+      a:hover > .nav-underline {
+        width: 5px;
+      }
+
       a.active-link > .nav-underline {
         width: 40px;
       }
+
     }
     .global-nav__home-btn {
       a {

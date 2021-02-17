@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -27,3 +28,28 @@ body {
 .text--thicc { font-weight: 600; }
 
 .text--thiccc { font-weight: 900; }
+
+/**
+* Styled headings
+*/
+
+.page-heading {
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+  &:before {
+    content: '';
+    display: block;
+    position: relative;
+    height: .7em;
+    width: .7em;
+    background: var(--theme-color);
+  }
+}
+
+h2, h3, h4 {
+  font-family: 'Anton', sans-serif;
+}
+
+.post-link-title {
+  font-family: 'Anton', sans-serif;
+}

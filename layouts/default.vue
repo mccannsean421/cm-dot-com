@@ -20,7 +20,10 @@ export default {
           return '#ab305e';
           break;
         case '/posts':
-          return '#456AEF';
+          return 'var(--medium-purple)';
+          break;
+        case '/posts':
+          return 'var(--medium-purple)';
           break;
         case '/contact':
           return '#FB8C24';
@@ -37,7 +40,6 @@ export default {
 .layout {
   margin: 0 auto;
 }
-
 
 .highlight {
   color: var(--primary-color);

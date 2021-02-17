@@ -1,7 +1,7 @@
 <template>
   <div class="container home-container">
     <div>
-      <h1>Cormac McCann</h1>
+      <h1 class="page-heading text--largest">Hi, I'm Cormac McCann</h1>
       <h2>Frontend Developer - Ameteur Engineer</h2>
     </div>
   </div>
@@ -31,8 +31,5 @@ export default {
 .home-container {
   display: grid;
   align-content: center;
-  h1 {
-    font-size: 72px;
-  }
 }
 </style>

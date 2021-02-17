@@ -1,7 +1,7 @@
 <template>
   <div class="white-page py-1">
     <article class="container post-container">
-     <h1 class="text--thicc text--largest post-heading">{{ page.title }}</h1>
+     <h1 class="text--thicc text--largest page-heading">{{ page.title }}</h1>
      <time :datetime="page.lastUpdated">{{ page.lastUpdated }}</time>
       <nuxt-content :document="page" />
     </article>

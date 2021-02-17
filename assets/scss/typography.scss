@@ -16,7 +16,9 @@ body {
 
 .text--smallest { font-size: .5em; }
 
-.text--large { font-size: 2em; }
+.text--large { font-size: 1.4em; }
+
+.text--larger { font-size: 2em; }
 
 .text--largest { font-size: 3em; }
 
@@ -36,13 +38,16 @@ body {
 .page-heading {
   font-weight: bold;
   font-family: 'Anton', sans-serif;
-  &:before {
+  &:after {
     content: '';
     display: block;
     position: relative;
     height: .7em;
-    width: .7em;
+    width: 1.5em;
     background: var(--theme-color);
+    z-index: -1;
+    top: -1.4em;
+    left: -.2em;
   }
 }
 

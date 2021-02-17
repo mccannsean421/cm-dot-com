@@ -1,7 +1,7 @@
 <template>
   <div class="layout" :style="{ '--theme-color': primaryPageColor }">
     <GlobalNavigation />
-    <Nuxt />
+    <Nuxt class="pa-1" />
     <Footer />
   </div>
 </template>
@@ -17,12 +17,12 @@ export default {
     primaryPageColor: function() {
       switch(this.$route.path) {
         case '/about':
-          return '#ab305e';
+          return '#ef3f81';
           break;
         case '/posts':
           return 'var(--medium-purple)';
           break;
-        case '/posts':
+        case '/posts/*':
           return 'var(--medium-purple)';
           break;
         case '/contact':
@@ -56,10 +56,6 @@ h1 {
   font-size: 32px;
   text-transform: uppercase;
   margin: 0px;
-}
-h2 {
-  margin: 0px 0px 40px 0px;
-  color: var(--primary-color);
 }
 .heading {
   margin-bottom: 40px;

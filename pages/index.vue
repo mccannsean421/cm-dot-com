@@ -2,7 +2,7 @@
   <div class="container home-container">
     <div>
       <h1 class="page-heading text--largest">Hi, I'm Cormac McCann</h1>
-      <h2>Frontend Developer - Ameteur Engineer</h2>
+      <h2>Frontend Developer - Amateur Engineer</h2>
     </div>
   </div>
 </template>

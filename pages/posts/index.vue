@@ -1,7 +1,6 @@
 <template>
   <div class="container posts-container">
     <h1 class="page-heading text--largest">Posts</h1>
-
     <BlogList :posts="posts" />
   </div>
 </template>

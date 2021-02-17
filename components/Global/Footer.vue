@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="footer-container">
       <div>
-        &copy; 2021 Cormac McCann. Built with NuxtJS
+        &copy; 2021 Cormac McCann. Built with Nuxt JS
       </div>
       <div class="footer-container__socials">
         <a
@@ -26,7 +26,7 @@ export default {
     return {
       socialLinks: [
         {
-          text: 'Github',
+          text: 'GitHub',
           href: 'https://github.com/mccannsean421',
           color: 'magenta'
         },

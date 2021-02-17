@@ -26,9 +26,10 @@
         v-for="(link, index) in links"
         :key="`nav-link-${index}`"
         :to="link.to"
+        class="text--large"
       >
         {{ link.text }}
-        <div class="nav-underline"></div>
+        <div class="nav-underline" :style="`background-color: ${link.color}`"></div>
       </nuxt-link>
     </div>
     </div>
@@ -45,17 +46,17 @@ export default {
         {
           text: 'About',
           to: '/about',
-          color: 'magenta'
+          color: 'var(--brink-pink)'
         },
         {
           text: 'Posts',
           to: '/posts',
-          color: 'magenta'
+          color: 'var(--medium-purple)'
         },
         {
           text: 'Contact',
           to: '/contact',
-          color: 'magenta'
+          color: 'var(--oompa)'
         }
       ]
     }
@@ -64,6 +65,11 @@ export default {
     toggleMobile() {
       this.showMobile = !this.showMobile;
     },
+  },
+  watch: {
+    $route: function() {
+        this.showMobile = false;
+    },
   }
 }
 </script>
@@ -71,6 +77,7 @@ export default {
 <style lang="scss">
 .global-nav {
   background: var(--black);
+  font-family: 'Anton', sans-serif;
     &__inner {
     max-width: var(--container-width-desktop);
     display: grid;
@@ -82,6 +89,8 @@ export default {
     align-items: center;
 
     .global-nav__mobile-toggle {
+      display: grid;
+      justify-items: end;
       button {
         background: transparent;
         color: #fff;
@@ -109,7 +118,7 @@ export default {
         padding-left: 20px;
         color: #fff;
         text-transform: uppercase;
-        font-weight: 800;
+        font-weight: bold;
         @media screen and (max-width:767px) {
           display: block;
         }

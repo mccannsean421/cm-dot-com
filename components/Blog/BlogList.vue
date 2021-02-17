@@ -5,15 +5,15 @@
       :key="`post-${index}`"
       class="blog-list__item"
     >
-    <h3 class="post-link-title text--large">
+    <h3 class="post-link-title">
       <nuxt-link
         :to="post.path"
-        class="post-link"
+        class="post-link text--larger"
       >
         {{ post.title }}
       </nuxt-link>
       </h3>
-      <p>{{ post.description }}</p>
+      <p class="text--large">{{ post.description }}</p>
     </div>
   </div>
 </template>

@@ -39,7 +39,7 @@ export default {
         { hid: 'twitter:site', name: 'twitter:site', content: '@CormacMcCannDev' },
         { hid: 'twitter:title', name: 'twitter:title', content: this.page.title },
         { hid: 'twitter:description', name: 'twitter:description', content: 'Check out the full post on my website!' },
-        { hid: 'twitter:image', name: 'twitter:image', content: '/me.jpg' },
+        { hid: 'twitter:image', name: 'twitter:image', content: 'https://youthful-hawking-8ac505.netlify.app/me.jpg' },
       ]
     };
   },

@@ -33,13 +33,13 @@ export default {
         },
         { hid: 'og:title', property: 'og:title', content: this.page.title },
         { hid: 'og:description', property: 'og:title', content: 'Blurb Content' },
-        { hid: 'og:image', property: 'og:image', content: `${window.location.origin}/me.jpg` },
+        { hid: 'og:image', property: 'og:image', content: `https://www.cormacmccann.com/me.jpg` },
         { hid: 'og:url', property: 'og:url', content: this.$route.path },
         { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
         { hid: 'twitter:site', name: 'twitter:site', content: '@CormacMcCannDev' },
         { hid: 'twitter:title', name: 'twitter:title', content: this.page.title },
         { hid: 'twitter:description', name: 'twitter:description', content: 'Check out the full post on my website!' },
-        { hid: 'twitter:image', name: 'twitter:image', content: `${window.location.origin}/me.jpg` },
+        { hid: 'twitter:image', name: 'twitter:image', content: `https://www.cormacmccann.com/me.jpg` },
       ]
     };
   },
